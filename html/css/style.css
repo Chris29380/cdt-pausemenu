@@ -1,0 +1,1177 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  margin-left: 3px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(24, 24, 24);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border-radius: 43px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+body {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+	justify-content: center;
+	align-items: center;
+}
+
+body .bg {
+	display: flex;
+	position: absolute;
+	width: 868px;
+	height: 540px;
+	background-color: rgba(0, 8, 31, 0.74);
+	-webkit-box-shadow: -3px 3px 13px 0px rgb(15, 15, 15);
+	-moz-box-shadow: -3px 3px 13px 0px rgba(15, 15, 15, 1);
+	box-shadow: -3px 3px 13px 0px rgba(15, 15, 15, 1);
+	border-radius: 10px;
+}
+
+body .bg .content {
+	display: flex;
+	width: 97%;
+	height: 95%;
+	margin-left: 1.25%;
+	margin-top: 1.25%;
+	border: 2px solid rgba(223, 224, 226, 0.74);
+	border-radius: 10px;
+	overflow: auto;
+}
+
+/********************************************************/
+/* bton close */
+/********************************************************/
+
+body .close {
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 22px;
+	margin-top: -570px;
+	margin-left: 843px;
+	background-color: rgba(0, 8, 31, 0.74);
+	border-radius: 50%;
+	z-index: 150;
+}
+
+body .close:hover {
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 22px;
+	margin-top: -570px;
+	margin-left: 843px;
+	background-color: rgba(0, 0, 0, 1);
+	border-radius: 50%;
+	transform: rotate(360deg);
+	transition: 900ms;
+	z-index: 150;
+}
+
+/********************************************************/
+/* bton youtube */
+/********************************************************/
+
+body .youtube {
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 22px;
+	margin-top: -570px;
+	margin-left: 770px;
+	background-color: rgba(255, 0, 0, 0.74);
+	transform: skew(-30deg);
+	z-index: 150;
+}
+
+
+body .youtube svg{	
+	transform: skew(30deg);
+}
+
+body .youtube:hover {
+	border-radius: 5px;
+	transform: skew(0deg);
+	transition: 200ms;
+}
+
+body .youtube:hover svg{	
+	transform: skew(0deg);
+	transition: 200ms;
+}
+
+/********************************************************/
+/* bton discord */
+/********************************************************/
+
+body .discord {
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 22px;
+	margin-top: -570px;
+	margin-left: 672px;
+	background-color: rgba(155, 194, 229, 0.74);
+	transform: skew(-30deg);
+	z-index: 150;
+}
+
+
+body .discord svg{	
+	transform: skew(30deg);
+}
+
+body .discord:hover {
+	border-radius: 5px;
+	transform: skew(0deg);
+	transition: 200ms;
+}
+
+body .discord:hover svg{	
+	transform: skew(0deg);
+	transition: 200ms;
+}
+
+/********************************************************/
+/* bton map */
+/********************************************************/
+
+body .bg .content .btonmap {
+	display: flex;
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	margin-top: 1%;
+	margin-left: 1%;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(15, 15, 15, 0.5);
+	border-radius: 21px;
+	z-index: 10;
+	background-image: url("../img/bgbtonmap.png");
+	background-repeat: no-repeat;
+  	background-position: 50% 0;
+  	background-size: cover;
+}
+
+body .bg .content .btonmap:hover {
+	display: flex;
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	margin-top: 1%;
+	margin-left: 1%;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: 21px;
+	z-index: 10;
+}
+
+body .bg .content .btonmap .btoncontent{
+	display: flex;
+	position: relative;
+	width: 90%;
+	height: 88%;
+	border-radius: 21px;
+	border-bottom: 1.5px solid rgba(223, 224, 226, 0.74);
+	border-left: 1.5px solid rgba(223, 224, 226, 0.74);
+	border-right: 1.5px solid rgba(223, 224, 226, 0.74);
+	background-color: rgba(221, 221, 221, 0.05);
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: white;
+	text-shadow: none;
+	z-index: 10;
+}
+
+body .bg .content .btonmap .btoncontent:hover{	
+	border-bottom: 1.5px solid rgba(87, 130, 218, 0.74);
+	border-left: 1.5px solid rgba(87, 130, 218, 0.74);
+	border-right: 1.5px solid rgba(87, 130, 218, 0.74);
+	background-color: rgba(87, 130, 218, 0.14);
+	-webkit-box-shadow: -1px 0px 2px 1px rgba(255,255,255,0.3); 
+	box-shadow: -1px 0px 2px 1px rgba(255,255,255,0.3);
+}
+
+body .bg .content .btontitlemap{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 15%;
+	height: 12%;
+	margin-left: 8.5%;
+	margin-top: 2.6%;
+	border-radius: 0 0 21px 21px;
+	border-bottom: 1.5px solid rgba(223, 224, 226, 0.34);
+	border-left: 1.5px solid rgba(223, 224, 226, 0.34);
+	border-right: 1.5px solid rgba(223, 224, 226, 0.34);
+	background-color: rgba(15, 15, 15, 0.25);
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: white;
+	text-shadow: none;
+	z-index: 100;
+}
+
+
+/********************************************************/
+/* bton rules */
+/********************************************************/
+
+body .bg .content .btonrules {
+	display: flex;
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	margin-top: 30%;
+	margin-left: 1%;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(15, 15, 15, 0.5);
+	border-radius: 21px;
+	z-index: 10;
+	background-image: url("../img/bgbtonrules.png");
+	background-repeat: no-repeat;
+  	background-position: 50% 0;
+  	background-size: cover;
+}
+
+body .bg .content .btonrules:hover {
+	display: flex;
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	margin-top: 30%;
+	margin-left: 1%;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: 21px;
+	z-index: 10;
+}
+
+body .bg .content .btonrules .btoncontent{
+	display: flex;
+	position: relative;
+	width: 90%;
+	height: 88%;
+	border-radius: 21px;
+	border-bottom: 1.5px solid rgba(223, 224, 226, 0.74);
+	border-left: 1.5px solid rgba(223, 224, 226, 0.74);
+	border-right: 1.5px solid rgba(223, 224, 226, 0.74);
+	background-color: rgba(221, 221, 221, 0.05);
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: white;
+	text-shadow: none;
+	z-index: 10;
+}
+
+body .bg .content .btonrules .btoncontent:hover{	
+	border-bottom: 1.5px solid rgba(255, 69, 0, 0.74);
+	border-left: 1.5px solid rgba(255, 69, 0, 0.74);
+	border-right: 1.5px solid rgba(255, 69, 0, 0.74);
+	background-color: rgba(255, 69, 0, 0.14);
+	-webkit-box-shadow: -1px 0px 2px 1px rgba(255,255,255,0.3); 
+	box-shadow: -1px 0px 2px 1px rgba(255,255,255,0.3);
+}
+
+body .bg .content .btontitlerules{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 15%;
+	height: 12%;
+	margin-left: 8.5%;
+	margin-top: 31.6%;
+	border-radius: 0 0 21px 21px;
+	border-bottom: 1.5px solid rgba(223, 224, 226, 0.34);
+	border-left: 1.5px solid rgba(223, 224, 226, 0.34);
+	border-right: 1.5px solid rgba(223, 224, 226, 0.34);
+	background-color: rgba(15, 15, 15, 0.25);
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: white;
+	text-shadow: none;
+	z-index: 100;
+}
+
+/********************************************************/
+/* bton player info */
+/********************************************************/
+
+body .bg .content .btonplayerinfo {
+	display: flex;
+	position: absolute;
+	width: 30%;
+	height: 91.5%;
+	margin-top: 1%;
+	margin-left: 33%;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(15, 15, 15, 0.75);
+	border-radius: 21px;
+	background-image: url("../img/bgbtonplayerinfo.png");
+	background-repeat: no-repeat;
+  	background-position: 50% 0;
+  	background-size: 110%;
+	z-index: 10;
+}
+
+body .bg .content .btonplayerinfo:hover {
+	display: flex;
+	position: absolute;
+	width: 30%;
+	height: 91.5%;
+	margin-top: 1%;
+	margin-left: 33%;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(5, 5, 5, 0.75);
+	border-radius: 21px;
+	background-image: url("../img/bgbtonplayerinfo.png");
+	background-repeat: no-repeat;
+  	background-position: 50% 0;
+  	background-size: 110%;
+	z-index: 10;
+}
+
+body .bg .content .btonplayerinfo .btoncontent{
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	width: 90%;
+	height: 95%;
+	border-radius: 21px;
+	border-bottom: 2.5px solid rgba(2, 2, 2, 1);
+	border-left: 2.5px solid rgba(2, 2, 2, 1);
+	border-right: 2.5px solid rgba(2, 2, 2, 1);
+	background-color: rgba(221, 221, 221, 0.05);
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: rgba(223, 224, 226, 0.74);
+	text-shadow: none;
+	z-index: 10;
+}
+
+body .bg .content .btonplayerinfo .btoncontent:hover{
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	width: 90%;
+	height: 95%;
+	border-radius: 21px;
+	border-bottom: 2.5px solid rgba(65, 65, 65, 1);
+	border-left: 2.5px solid rgba(65, 65, 65, 1);
+	border-right: 2.5px solid rgba(65, 65, 65, 1);
+	background-color: rgba(100, 100, 100, 0.25);
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: rgba(223, 224, 226, 0.74);
+	text-shadow: none;
+	z-index: 10;
+}
+
+body .bg .content .btontitleplayerinfo{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 15%;
+	height: 12%;
+	margin-left: 40.5%;
+	margin-top: 2.4%;
+	border-radius: 0 0 21px 21px;
+	border-bottom: 1.5px solid rgba(2, 2, 2, 1);
+	border-left: 1.5px solid rgba(2, 2, 2, 1);
+	border-right: 1.5px solid rgba(2, 2, 2, 1);
+	background-color: rgba(15, 15, 15, 0.25);
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: rgba(255, 69, 0, 0.74);
+	text-shadow: none;
+	z-index: 100;
+}
+
+/********************************************************/
+/* mane player */
+/********************************************************/
+
+body .bg .content .btonplayerinfo .namep {
+	display: flex;
+	position: relative;
+	justify-content: left;
+	align-items: center;
+	height: 6%;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 30%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: rgba(255, 255, 255, 0.74);
+	text-shadow: none;
+}
+
+body .bg .content .btonplayerinfo .namep .svgnamep{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+
+body .bg .content .btonplayerinfo .namep .svgnamep svg{
+	padding: 10%;
+}
+
+body .bg .content .btonplayerinfo .namep .value {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-left: 2%;
+}
+
+/********************************************************/
+/* id player */
+/********************************************************/
+
+body .bg .content .btonplayerinfo .idp {
+	display: flex;
+	position: relative;
+	justify-content: left;
+	align-items: center;
+	height: 6%;
+	width: 90%;
+	margin-left: 5%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: rgba(255, 255, 255, 0.74);
+	text-shadow: none;
+}
+
+body .bg .content .btonplayerinfo .idp .svgidp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+
+body .bg .content .btonplayerinfo .idp .svgidp svg{
+	padding: 10%;
+}
+
+body .bg .content .btonplayerinfo .idp .value {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-left: 2%;
+}
+
+/********************************************************/
+/* ping player */
+/********************************************************/
+
+body .bg .content .btonplayerinfo .pingp {
+	display: flex;
+	position: relative;
+	justify-content: left;
+	align-items: center;
+	height: 6%;
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 6%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(5px + 0.390625vw);
+    color: rgba(255, 255, 255, 0.74);
+	text-shadow: none;
+	background-color: rgba(0, 0, 0, 0.05);
+	border-radius: 21px 0 21px 0;
+}
+
+body .bg .content .btonplayerinfo .pingp .svgpingp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+
+body .bg .content .btonplayerinfo .pingp .svgpingp svg{
+	padding: 10%;
+}
+
+body .bg .content .btonplayerinfo .pingp .value {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-left: 2%;
+}
+
+/********************************************************/
+/* health player */
+/********************************************************/
+
+body .bg .content .btonplayerinfo .healthp {
+	display: flex;
+	position: relative;
+	justify-content: left;
+	align-items: center;
+	height: 6%;
+	width: 90%;
+	margin-left: 2.5%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(5px + 0.390625vw);
+    color: rgba(255, 255, 255, 0.74);
+	text-shadow: none;
+	background-color: rgba(0, 0, 0, 0.05);
+	border-radius: 21px 0 21px 0;
+}
+
+body .bg .content .btonplayerinfo .healthp .svghealthp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+
+body .bg .content .btonplayerinfo .healthp .svghealthp svg{
+	padding: 10%;
+}
+
+body .bg .content .btonplayerinfo .healthp .barre{
+	display: flex;
+	width: 100%;
+	background-color: rgba(125,125,125,0.85);
+	height: 5px;
+	border-radius: 0 5px 0 5px ;
+}
+
+body .bg .content .btonplayerinfo .healthp .barre .value {
+	width: 98%;
+	background-color: rgb(255, 0, 0);
+	height: 5px;
+	border-radius: 0 5px 0 5px ;
+}
+
+/********************************************************/
+/* hunger player */
+/********************************************************/
+
+body .bg .content .btonplayerinfo .hungerp {
+	display: flex;
+	position: relative;
+	justify-content: left;
+	align-items: center;
+	height: 6%;
+	width: 90%;
+	margin-left: 2.5%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(5px + 0.390625vw);
+    color: rgba(255, 255, 255, 0.74);
+	text-shadow: none;
+	background-color: rgba(0, 0, 0, 0.05);
+	border-radius: 21px 0 21px 0;
+}
+
+body .bg .content .btonplayerinfo .hungerp .svghungerp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+
+body .bg .content .btonplayerinfo .hungerp .svghungerp svg{
+	padding: 10%;
+}
+
+body .bg .content .btonplayerinfo .hungerp .barre{
+	display: flex;
+	width: 100%;
+	background-color: rgba(125,125,125,0.85);
+	height: 5px;
+	border-radius: 0 5px 0 5px ;
+}
+
+body .bg .content .btonplayerinfo .hungerp .barre .value {
+	width: 90%;
+	background-color: rgb(0, 255, 115);
+	height: 5px;
+	border-radius: 0 5px 0 5px ;
+}
+
+/********************************************************/
+/* thirst player */
+/********************************************************/
+
+body .bg .content .btonplayerinfo .thirstp {
+	display: flex;
+	position: relative;
+	justify-content: left;
+	align-items: center;
+	height: 6%;
+	width: 90%;
+	margin-left: 2.5%;
+	margin-bottom: 6%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(5px + 0.390625vw);
+    color: rgba(255, 255, 255, 0.74);
+	text-shadow: none;
+	background-color: rgba(0, 0, 0, 0.05);
+	border-radius: 21px 0 21px 0;
+}
+
+body .bg .content .btonplayerinfo .thirstp .svgthirstp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+
+body .bg .content .btonplayerinfo .thirstp .svgthirstp svg{
+	padding: 10%;
+}
+
+body .bg .content .btonplayerinfo .thirstp .barre{
+	display: flex;
+	width: 100%;
+	background-color: rgba(125,125,125,0.85);
+	height: 5px;
+	border-radius: 0 5px 0 5px ;
+}
+
+body .bg .content .btonplayerinfo .thirstp .barre .value {
+	width: 78%;
+	background-color: rgb(0, 140, 255);
+	height: 5px;
+	border-radius: 0 5px 0 5px ;
+}
+
+/********************************************************/
+/* job1 player */
+/********************************************************/
+
+body .bg .content .btonplayerinfo .job1p {
+	display: flex;
+	position: relative;
+	justify-content: left;
+	align-items: center;
+	height: 10%;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 0.5%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: rgba(255, 255, 255, 0.74);
+	text-shadow: none;
+	background-color: rgba(0, 0, 0, 0.10);
+	-webkit-transform:skew(-10deg);
+	-moz-transform:skew(-10deg);
+	-o-transform:skew(-10deg);
+	tranform:skew(-10deg);
+}
+
+body .bg .content .btonplayerinfo .job1p .svgjob1p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+
+body .bg .content .btonplayerinfo .job1p .svgjob1p svg{
+	padding: 10%;
+	transform:skew(10deg);
+}
+
+body .bg .content .btonplayerinfo .job1p .value {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: center;
+	padding-left: 2%;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(5px + 0.390625vw);
+    color: rgba(255, 255, 255, 0.74);
+	text-shadow: none;
+	transform:skew(10deg);
+}
+
+body .bg .content .btonplayerinfo .job1p .value .valuejob {
+	padding-left: 2%;
+	width: 100%;
+}
+
+body .bg .content .btonplayerinfo .job1p .value .valuesalary {
+	margin-top: -2%;
+	padding-left: 2%;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(4px + 0.390625vw);
+    color: rgba(255, 69, 0, 0.74);
+}
+
+/********************************************************/
+/* job2 player */
+/********************************************************/
+
+body .bg .content .btonplayerinfo .job2p {
+	display: flex;
+	position: relative;
+	justify-content: left;
+	align-items: center;
+	height: 10%;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: rgba(255, 255, 255, 0.74);
+	text-shadow: none;
+	background-color: rgba(0, 0, 0, 0.10);
+	-webkit-transform:skew(-10deg);
+	-moz-transform:skew(-10deg);
+	-o-transform:skew(-10deg);
+	transform:skew(-10deg);
+}
+
+body .bg .content .btonplayerinfo .job2p .svgjob2p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+
+body .bg .content .btonplayerinfo .job2p .svgjob2p svg{
+	padding: 10%;
+	transform:skew(10deg);
+}
+
+body .bg .content .btonplayerinfo .job2p .value {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: center;
+	padding-left: 2%;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(5px + 0.390625vw);
+    color: rgba(255, 255, 255, 0.74);
+	text-shadow: none;
+	transform:skew(10deg);
+}
+
+body .bg .content .btonplayerinfo .job2p .value .valuejob {
+	padding-left: 2%;
+	width: 100%;
+}
+
+body .bg .content .btonplayerinfo .job2p .value .valuesalary {
+	margin-top: -2%;
+	padding-left: 2%;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(4px + 0.390625vw);
+    color: rgba(255, 69, 0, 0.74);
+}
+
+/********************************************************/
+/* cash player */
+/********************************************************/
+
+body .bg .content .btonplayerinfo .cashp {
+	display: flex;
+	position: relative;
+	justify-content: left;
+	align-items: center;
+	height: 6%;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 1.5%;
+	margin-bottom: 0.5%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(6px + 0.390625vw);
+    color: rgba(255, 255, 255, 0.74);
+	text-shadow: none;
+}
+
+body .bg .content .btonplayerinfo .cashp .svgcashp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+
+body .bg .content .btonplayerinfo .cashp .svgcashp svg{
+	padding: 10%;
+}
+
+body .bg .content .btonplayerinfo .cashp .value {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-left: 2%;
+}
+
+/********************************************************/
+/* bank player */
+/********************************************************/
+
+body .bg .content .btonplayerinfo .bankp {
+	display: flex;
+	position: relative;
+	justify-content: left;
+	align-items: center;
+	height: 6%;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 1.5%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(6px + 0.390625vw);
+    color: rgba(255, 255, 255, 0.74);
+	text-shadow: none;
+}
+
+body .bg .content .btonplayerinfo .bankp .svgbankp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+
+body .bg .content .btonplayerinfo .bankp .svgbankp svg{
+	padding: 10%;
+}
+
+body .bg .content .btonplayerinfo .bankp .value {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-left: 2%;
+}
+
+/********************************************************/
+/* bton shop */
+/********************************************************/
+
+body .bg .content .btonshop {
+	display: flex;
+	position: absolute;
+	width: 30%;
+	height: 28%;
+	margin-top: 1%;
+	margin-left: 65.5%;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(54, 54, 54, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	z-index: 10;
+	background-image: url("../img/bgbtonshop.png");
+	background-repeat: no-repeat;
+  	background-position: 50% 0;
+  	background-size: cover;
+}
+
+body .bg .content .btonshop:hover {
+	border: 1px solid rgba(255, 69, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.94);
+	-webkit-box-shadow: -3px 0px 4px 3px rgba(255,69,0,0.5); 
+	box-shadow: -3px 0px 4px 3px rgba(255,69,0,0.5);
+}
+
+body .bg .content .btonshop .btoncontent{
+	display: flex;
+	position: relative;
+	width: 90%;
+	height: 88%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 21px;
+	border-bottom: 1.5px solid rgba(223, 224, 226, 0.74);
+	border-left: 1.5px solid rgba(223, 224, 226, 0.74);
+	border-right: 1.5px solid rgba(223, 224, 226, 0.74);
+	background-color: rgba(255, 69, 0, 0.05);
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: white;
+	text-align: center;
+	text-shadow: none;
+	z-index: 10;
+}
+
+body .bg .content .btonshop .btoncontent:hover{	
+	border-bottom: 1.5px solid rgba(255, 69, 0, 0.74);
+	border-left: 1.5px solid rgba(255, 69, 0, 0.74);
+	border-right: 1.5px solid rgba(255, 69, 0, 0.74);
+	background-color: rgba(255, 69, 0, 0.14);
+	-webkit-box-shadow: -1px 0px 2px 1px rgba(255,255,255,0.3); 
+	box-shadow: -1px 0px 2px 1px rgba(255,255,255,0.3);
+}
+
+/********************************************************/
+/* bton news */
+/********************************************************/
+
+body .bg .content .btonnews {
+	display: flex;
+	position: absolute;
+	width: 30.5%;
+	height: 61%;
+	margin-top: 20%;
+	margin-left: 65.5%;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(15, 15, 15, 0.5);
+	border-radius: 21px;
+	z-index: 10;
+	background-image: url("");
+	background-repeat: no-repeat;
+  	background-position: 50% 0;
+  	background-size: cover;
+}
+
+body .bg .content .btonnews:hover {
+	background-color: rgba(0, 0, 0, 0.65);
+}
+
+body .bg .content .btonnews .btoncontent{
+	display: flex;
+	position: relative;
+	width: 90%;
+	height: 88%;
+	border-radius: 21px 0 0 21px;
+	border-bottom: 1.5px solid rgba(1, 247, 144, 0.74);
+	border-left: 1.5px solid rgba(1, 247, 144, 0.74);
+	border-right: 1.5px solid rgba(1, 247, 144, 0.74);
+	background-color: rgba(221, 221, 221, 0.05);
+	justify-content: left;
+	align-items: top;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: white;
+	text-shadow: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+	z-index: 10;
+}
+
+body .bg .content .btonnews .btoncontent:hover{	
+	border-bottom: 1.5px solid rgba(1, 247, 144, 0.74);
+	border-left: 1.5px solid rgba(1, 247, 144, 0.74);
+	border-right: 1.5px solid rgba(1, 247, 144, 0.74);
+	background-color: rgba(1, 247, 144, 0.04);
+	-webkit-box-shadow: -1px 0px 2px 1px rgba(255,255,255,0.3); 
+	box-shadow: -1px 0px 2px 1px rgba(255,255,255,0.3);
+}
+
+body .bg .content .btontitlenews{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 15%;
+	height: 8%;
+	margin-left: 73%;
+	margin-top: 22.2%;
+	border-radius: 0 0 21px 21px;
+	border-bottom: 1.5px solid rgba(223, 224, 226, 0.34);
+	border-left: 1.5px solid rgba(223, 224, 226, 0.34);
+	border-right: 1.5px solid rgba(223, 224, 226, 0.34);
+	background-color: rgba(15, 15, 15, 0.25);
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: white;
+	text-shadow: none;
+	z-index: 100;
+}
+
+body .bg .content .btonnews .btoncontent .contentnews{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 90%;
+	margin-left: 2.5%;
+	margin-top: 20%;
+	background-color: rgba(221, 221, 221, 0.02);
+	justify-content: left;
+	align-items: top;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(6px + 0.390625vw);
+	padding-left: 0.25%;
+	padding-right: 0.25%;
+    color: white;
+	text-shadow: none;
+	z-index: 10;
+}
+
+body .bg .content .btonnews .btoncontent .contentnews .boxnews {
+	display: flex;
+	flex-direction: column;
+	width: 97%;
+	margin-left: 1.25%;
+	margin-top: 2.25%;
+	padding: 2%;
+	background-color: rgba(65,65,65,0.35);
+	align-items: left;
+	justify-content: center;
+}
+
+body .bg .content .btonnews .btoncontent .contentnews .boxnews .newstitle{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	color: rgba(1,247,144,1);
+	width: 98%;
+	height: 20%;
+	font-size: calc(5px + 0.390625vw);
+}
+body .bg .content .btonnews .btoncontent .contentnews .boxnews .contentboxnews{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	width: 98%;
+	min-height: 78%;
+	color: rgba(255,255,255,1);
+	text-justify: inter-word;
+	font-size: calc(5px + 0.390625vw);
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+/********************************************************/
+/* Rules content */
+/********************************************************/
+
+/********************************************************/
+/* rules title */
+/********************************************************/
+
+body .bg .content .rulestitle {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	width: 15%;
+	height: 10%;
+	margin-left: 42.5%;
+	margin-top: -1.4%;
+	border-radius: 0 0 21px 21px;
+	border-bottom: 2.5px solid rgba(223, 224, 226, 0.74);
+	border-left: 2.5px solid rgba(223, 224, 226, 0.74);
+	border-right: 2.5px solid rgba(223, 224, 226, 0.74);
+	background-color: rgba(223, 224, 226, 1);
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: black;
+	text-shadow: none;
+	z-index: 100;
+}
+
+body .bg .content .rulesback {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 5%;
+	height: 5%;
+	margin-left: 92%;
+	margin-top: 0.5%;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+}
+
+body .bg .content .contentrules {
+	display: flex;
+	flex-direction: column;
+	width: 97%;
+	height: 85%;
+	margin-left: 1.25%;
+	margin-top: 6.25%;
+	background-color: rgba(223, 224, 226, 0.25);
+	border-radius: 10px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+body .bg .content .contentrules .boxrule{
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	margin-left: 1.25%;
+	margin-top: 2.25%;
+	padding: 1%;
+	background-color: rgba(65,65,65,0.35);
+	align-items: center;
+	justify-content: left;
+}
+
+body .bg .content .contentrules .boxrule .ruletitle{
+	display: block;
+	position: relative;
+	width: 100%;
+	padding-left: 1%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(8px + 0.390625vw);
+    color: orangered;
+	text-shadow: none;
+}
+
+body .bg .content .contentrules .boxrule .rulecontent{
+	display: block;
+	position: relative;
+	width: 100%;
+	padding-left: 1%;
+	font-family: 'Oswald', sans-serif;
+    font-size: calc(6px + 0.390625vw);
+    color: white;
+	text-shadow: none;
+	text-align: justify;
+	text-justify: inter-word;
+}
