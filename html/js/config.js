@@ -12,7 +12,7 @@ const btn = {   //title and desc of each button
     ["newstitle"] : "News",
 }
 
-const shoplink = "https://www.google.com"       //leave blank if you don't have an external store in web.
+const shoplink = "https://www.google.fr"       //leave blank if you don't have an external store in web.
                                                 //u can use this to a vote link like topservers for example, so change title and desc of this button
 
 const currency = "$"        //currency in use on ur server

@@ -913,10 +913,7 @@ body .bg .content .btonshop {
 }
 
 body .bg .content .btonshop:hover {
-	border: 1px solid rgba(255, 69, 0, 0.5);
 	background-color: rgba(0, 0, 0, 0.94);
-	-webkit-box-shadow: -3px 0px 4px 3px rgba(255,69,0,0.5); 
-	box-shadow: -3px 0px 4px 3px rgba(255,69,0,0.5);
 }
 
 body .bg .content .btonshop .btoncontent{
@@ -927,10 +924,6 @@ body .bg .content .btonshop .btoncontent{
 	padding-left: 2%;
 	padding-right: 2%;
 	border-radius: 21px;
-	border-bottom: 1.5px solid rgba(223, 224, 226, 0.74);
-	border-left: 1.5px solid rgba(223, 224, 226, 0.74);
-	border-right: 1.5px solid rgba(223, 224, 226, 0.74);
-	background-color: rgba(255, 69, 0, 0.05);
 	justify-content: center;
 	align-items: center;
 	font-family: 'Oswald', sans-serif;
@@ -942,12 +935,7 @@ body .bg .content .btonshop .btoncontent{
 }
 
 body .bg .content .btonshop .btoncontent:hover{	
-	border-bottom: 1.5px solid rgba(255, 69, 0, 0.74);
-	border-left: 1.5px solid rgba(255, 69, 0, 0.74);
-	border-right: 1.5px solid rgba(255, 69, 0, 0.74);
 	background-color: rgba(255, 69, 0, 0.14);
-	-webkit-box-shadow: -1px 0px 2px 1px rgba(255,255,255,0.3); 
-	box-shadow: -1px 0px 2px 1px rgba(255,255,255,0.3);
 }
 
 /********************************************************/
